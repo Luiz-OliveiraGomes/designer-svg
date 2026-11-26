@@ -1,6 +1,16 @@
 # Designer SVG
 
+**C++17 · Polimorfismo · SVG**
+
 Gerador de desenhos 2D em C++ que lê uma descrição de formas geométricas e exporta o resultado em SVG. O projeto explora polimorfismo com métodos virtuais para representar e exportar cada tipo de forma.
+
+<p align="center">
+  <img src="exemplo.svg" alt="Composição SVG com fundo verde, losango amarelo e círculo azul" width="480">
+</p>
+
+Exemplo incluído no repositório. O desenho usa um retângulo, um losango e um círculo descritos em [exemplo.txt](exemplo.txt).
+
+## Funcionalidades
 
 - Modela linhas, círculos, estrelas, retângulos, losangos, triângulos e textos.
 - Permite definir desenhos por arquivo ou criar formas diretamente em C++.
